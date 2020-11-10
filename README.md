@@ -4,7 +4,22 @@ This repository stores the information and demonstration of ROS costmap. Please 
 
 ## Content
 
+- [Navigation and Costmap](#Navigation-and-Costmap)
 - [Reference](#Reference)
+
+## Navigation and Costmap
+
+In the navigation stack, move_base node, it maintains two costmaps. The `planner_costmap_ros` and `controller_costmap_ros`. The `planner_costmap_ros` is used as a map for global navigation whereas the `controller_costmap_ros` is used for a local navigation map.  
+
+Below are the steps costmap initialize itself:  
+
+- Obtain coordinate transformation(global and robot's coordinate system)
+- Add echo plugin layer [addPlugin]
+- Set footprint [setUnpaddedRobotFootprintPolygon]
+- Publish visualize messages [Costmap2DPublisher]
+- Set timer to detect robot's movement [movementCB]
+- Activate dynamic parameter server [reconfigureCB]
+- Activate update map thread [mapUpdateLoop]
 
 ## Reference
 
