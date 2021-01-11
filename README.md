@@ -31,3 +31,5 @@ Comparison between grid_map and costmap_2d.
 - costmap parameter explanation [link](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjHqv2s6vbsAhXJFLcAHaH7Bg8QFjAIegQIChAC&url=http%3A%2F%2Fu.cs.biu.ac.il%2F~yehoshr1%2F89-685%2FFall2013%2FROSLesson5.pptx&usg=AOvVaw3FxoM_cf7qIXKICrBiDGxP)
 - navigation and costmap [link](https://blog.csdn.net/qq_41925420/article/details/86636141)
 - Converting grid_map to costmap [issue_link](https://github.com/ANYbotics/grid_map/issues/207)
+- grid_map and costmap_2d (stonier) [link](https://github.com/stonier/cost_map)
+- About tunning costmap social layer [link_pdf](http://wustl.probablydavid.com/publications/TuningCostmaps.pdf)
