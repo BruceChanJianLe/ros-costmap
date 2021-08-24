@@ -34,3 +34,4 @@ Comparison between grid_map and costmap_2d.
 - grid_map and costmap_2d (stonier) [link](https://github.com/stonier/cost_map)
 - About tunning costmap social layer [link_pdf](http://wustl.probablydavid.com/publications/TuningCostmaps.pdf)
 - Tuning costmap inflation radius [link_youtube](https://www.theconstructsim.com/ros-qa-108-visualize-inflation-layer-rviz/)
+- Costmap Function Explanation [link](https://blog.krybot.com/a?ID=01600-a4e174a3-687c-4641-a5de-a779369b7e8a)
