@@ -24,6 +24,9 @@ Below are the steps costmap initialize itself:
 Comparison between grid_map and costmap_2d.  
 ![image](data/image_loading_coordinates.png)
 
+## Layered Costmap and Master Grid
+Basically `layered_costmap_` and `master_grid` is the same thing. Just that `master_grid` allows the change of costmap value where `layered_costmap_` does not. `layered_costmap_` is there for other purposes, e.g. mapToWorld, worldToMap, etc. transformation.
+
 ## Reference
 
 - costmap diagram [link](https://blog.csdn.net/feidaji/article/details/103178619?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522160497155519725222449565%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=160497155519725222449565&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-2-103178619.pc_first_rank_v2_rank_v28&utm_term=costmap_2d)
